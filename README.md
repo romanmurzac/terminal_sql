@@ -19,8 +19,8 @@ curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 
 Clone the repository:
 ```sh
-git clone https://github.com/yourusername/rust-polars-sql.git
-cd rust-polars-sql
+git clone https://github.com/romanmurzac/terminal_sql.git
+cd terminal_sql
 ```
 
 Build the project:
@@ -31,7 +31,7 @@ cargo build
 ## Usage
 Run the project:
 ```sh
-cargo run -- path/to/data.csv
+cargo run
 ```
 
 Run the tests:
@@ -42,6 +42,10 @@ cargo test
 ## Project Structure
 ```
 project/
+├── data/
+│   ├── data.csv        # Test CSV file
+│   ├── data.json       # Test JSON file
+│   ├── data.parquet    # Test Parquet file
 ├── src/
 │   ├── file_io.rs      # File handling logic
 │   ├── query.rs        # Query execution logic
@@ -61,7 +65,6 @@ Handles reading data files.
 ```rust
 /// Reads a file and returns its contents as a string.
 pub fn read_file(path: &str) -> Result<String, String> {
-    // Implementation here
 }
 ```
 
@@ -70,7 +73,6 @@ Executes SQL queries using Polars.
 ```rust
 /// Executes a SQL query on a given Polars SQLContext.
 pub fn execute_query(ctx: &mut SQLContext, query: &str) -> Result<(), String> {
-    // Implementation here
 }
 ```
 
@@ -79,7 +81,6 @@ Utility functions for user input and error handling.
 ```rust
 /// Prompts the user for input and returns the response.
 pub fn user_input(input: &str) -> Result<String, String> {
-    // Implementation here
 }
 ```
 
