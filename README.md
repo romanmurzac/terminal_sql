@@ -1,6 +1,6 @@
 # TerminalSQL
 
-**Version:** [![Latest Release](https://img.shields.io/github/v/release//romanmurzac/terminal_sql)](https://github.com/romanmurzac/terminal_sql/releases/latest)
+[![Latest Release](https://img.shields.io/github/v/release/romanmurzac/terminal_sql)](https://github.com/romanmurzac/terminal_sql/releases/latest)
 
 ## Overview
 Run SQL query on your local files directly in terminal.
@@ -13,7 +13,9 @@ This project provides a SQL query execution framework using the [**Rust**](https
 - Write data files
 
 ## App
-For MacOS the app can be downloaded from [`here`](app/terminal_sql).
+For **MacOS** the app can be downloaded [`here`](app/terminal_sql).
+
+![Image 1.1](media/image_1.1.png)
 
 ## Installation
 Ensure you have **Rust** installed. If not, install it using [Rustup](https://rustup.rs/):
@@ -47,6 +49,8 @@ Run the tests:
 ```sh
 cargo test
 ```
+
+![Image 1.2](media/image_1.2.png)
 
 ## Project Structure
 ```
