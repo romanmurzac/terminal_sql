@@ -1,23 +1,26 @@
 [
     {
-        "column_1": "value_11",
-        "column_2": "value_21",
-        "column_3": "value_13",
-        "column_4": "value_14",
-        "column_5": "value_15"
+        "id": 1,
+        "first_name": "Anton",
+        "last_name": "Popescu",
+        "country": "Romania",
+        "age": 35,
+        "is_active": false
     },
     {
-        "column_1": "value_21",
-        "column_2": "value_22",
-        "column_3": "value_23",
-        "column_4": "value_24",
-        "column_5": "value_25"
+        "id": 2,
+        "first_name": "Cristina",
+        "last_name": "Mihnea",
+        "country": "Moldova",
+        "age": 31,
+        "is_active": true
     },
     {
-        "column_1": "value_31",
-        "column_2": "value_32",
-        "column_3": "value_33",
-        "column_4": "value_34",
-        "column_5": "value_35"
+        "id": 3,
+        "first_name": "Irina",
+        "last_name": "Cristescu",
+        "country": "Romania",
+        "age": 32,
+        "is_active": false
     }
 ]
