@@ -13,7 +13,7 @@ This project provides a SQL query execution framework using the [**Rust**](https
 - Write data files
 
 ## App
-For **MacOS** the app can be downloaded [`here`](app/terminal_sql).
+For **MacOS** the app can be downloaded [`here`](app/TerminalSQL-macOS.zip).
 
 ![Image 1.1](media/image_1.1.png)
 
