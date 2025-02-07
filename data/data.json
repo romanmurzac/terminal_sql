@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "first_name": "Anton",
+        "last_name": "Popescu",
+        "country": "Romania",
+        "age": 35,
+        "is_active": false
+    },
+    {
+        "id": 2,
+        "first_name": "Cristina",
+        "last_name": "Mihnea",
+        "country": "Moldova",
+        "age": 31,
+        "is_active": true
+    },
+    {
+        "id": 3,
+        "first_name": "Irina",
+        "last_name": "Cristescu",
+        "country": "Romania",
+        "age": 32,
+        "is_active": false
+    }
+]

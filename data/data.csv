@@ -1,0 +1,4 @@
+id,first_name,last_name,country,age,is_active
+1,Andrei,Gheorghe,Moldova,27,true
+2,Mihai,Vlase,Romania,25,true
+3,Ioana,Nistor,Moldova,24,false

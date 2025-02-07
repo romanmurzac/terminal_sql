@@ -1,0 +1,7 @@
+[package]
+name = "terminal_sql"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+polars = { version = "0.46", features = ["csv", "json", "parquet", "sql", "describe", "lazy"] }
