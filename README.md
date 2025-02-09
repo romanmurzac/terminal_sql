@@ -12,6 +12,14 @@ This project provides a SQL query execution framework using the [**Rust**](https
 - Execute SQL queries
 - Write data files
 
+## Legend
+In the TerminalSQL there are 5 used [ANSI colors](https://talyian.github.io/ansicolors/) for the messages:
+- **user input**: foreground white - `\x1b[37m` - user input in the terminal.
+- **indication message**: foreground cyan - `\x1b[36m` - expect input in the terminal from the user.
+- **success message**: foreground green - `\x1b[32m` - successful execution of the user input.
+- **error message**: foreground red - `\x1b[31m` - erorr occured during execution of the user input.
+- **start/finish message**: background green - `\x1b[42m` - start and finish of the program execution.
+
 ## App
 For **MacOS** the app can be downloaded [`here`](app/TerminalSQL-macOS.zip).
 

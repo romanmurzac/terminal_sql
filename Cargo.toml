@@ -1,7 +1,14 @@
 [package]
 name = "terminal_sql"
-version = "0.1.0"
+version = "0.2.0"
 edition = "2021"
+authors = ["Roman Murzac <roman.murzac@gmail.com>"]
+license = "MIT"
+repository = "https://github.com/romanmurzac/terminal_sql"
+description = "Run SQL query on your local files directly in terminal."
+readme = "README.md"
+keywords = ["rust", "polars", "sql"]
+categories = ["command-line-utilities", "sql"]
 
 [dependencies]
 polars = { version = "0.46", features = ["csv", "json", "parquet", "sql", "describe", "lazy"] }
