@@ -1,7 +1,5 @@
 # TerminalSQL
 
-[![Latest Release](https://img.shields.io/github/v/release/romanmurzac/terminal_sql)](https://github.com/romanmurzac/terminal_sql/releases/latest)
-
 ## Overview
 Run SQL query on your local files directly in terminal.
 
@@ -12,8 +10,21 @@ This project provides a SQL query execution framework using the [**Rust**](https
 - Execute SQL queries
 - Write data files
 
+## Legend
+In the TerminalSQL there are 5 used [ANSI colors](https://talyian.github.io/ansicolors/) for the messages:
+- **user input**: foreground white - `\x1b[37m` - user input in the terminal.
+- **indication message**: foreground cyan - `\x1b[36m` - expect input in the terminal from the user.
+- **success message**: foreground green - `\x1b[32m` - successful execution of the user input.
+- **error message**: foreground red - `\x1b[31m` - erorr occured during execution of the user input.
+- **start/finish message**: background green - `\x1b[42m` - start and finish of the program execution.
+
 ## App
-For **MacOS** the app can be downloaded [`here`](app/TerminalSQL-macOS.zip).
+For **MacOS** the app can be downloaded [`here`](app/TerminalSQL-MacOS.tar.gz).
+
+Notes:
+- Enter absolute path for the files.
+- Separate files by a comma.
+- Each file is available in the query as `source_1`, `source_2`, etc.
 
 ![Image 1.1](media/image_1.1.png)
 
