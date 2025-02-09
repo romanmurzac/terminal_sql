@@ -21,6 +21,11 @@ In the TerminalSQL there are 5 used [ANSI colors](https://talyian.github.io/ansi
 ## App
 For **MacOS** the app can be downloaded [`here`](app/TerminalSQL-MacOS.tar.gz).
 
+Notes:
+- Enter absolute path for the files.
+- Separate files by a comma.
+- Each file is available in the query as `source_1`, `source_2`, etc.
+
 ![Image 1.1](media/image_1.1.png)
 
 ## Installation
