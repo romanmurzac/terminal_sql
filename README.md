@@ -105,6 +105,13 @@ pub fn save_file(df: &mut DataFrame, filename: &str) -> PolarsResult<()> {
 }
 ```
 
+Logic for file writing.
+```rust
+/// Handles the query result and provides an option to save it.
+pub fn file_loop(df: &mut DataFrame) -> io::Result<()> {
+}
+```
+
 ### `query`
 Mentain the logic for the continuous running.
 ```rust
@@ -120,17 +127,18 @@ pub fn execute_query(ctx: &mut SQLContext, query: &str) -> Result<(), String> {
 }
 ```
 
-Keep the logic for the query result.
-```rust
-/// Handles the query result and provides an option to save it.
-pub fn handle_query_result(df: &mut DataFrame) -> io::Result<()> {
-```
-
 ### `utils`
 Utility functions for user input and error handling.
 ```rust
 /// Prompts the user for input and returns the response.
 pub fn user_input(input: &str) -> Result<String, String> {
+}
+```
+
+Parse all files introduced by the user.
+```rust
+/// Check if all files are parsed correctly.
+pub fn get_files() -> PolarsResult<Vec<(String, DataFrame)>> {
 }
 ```
 
@@ -140,3 +148,21 @@ Feel free to fork this repository and submit a pull request with improvements!
 ## License
 This project is licensed under the MIT License.
 
+## Changelog
+
+### [0.2.0] - 2025-02-09
+#### Added
+- Feature 1: Parse multiple files.
+- Feature 2: Option to exit from the program.
+
+#### Changed
+- Improvement 1: Structure of the modules.
+- Improvement 2: Main function structure.
+
+#### Fixed
+- Bug fix 1: Handle user input.
+- Bug fix 2: Invalid files for reading.
+- Bug fix 3: Invalid file for writing.
+
+#### Removed
+- Deprecated Feature: Relative path of the files in the published app.

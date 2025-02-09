@@ -19,7 +19,7 @@ pub fn user_input(message: &str) -> io::Result<String> {
     Ok(input)
 }
 
-
+/// Check if all files are parsed correctly.
 pub fn get_files() -> PolarsResult<Vec<(String, DataFrame)>> {
     let mut valid_files = Vec::new();
     let mut input_valid = false;
