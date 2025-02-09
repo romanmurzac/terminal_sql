@@ -1,7 +1,5 @@
 # TerminalSQL
 
-[![Latest Release](https://img.shields.io/github/v/release/romanmurzac/terminal_sql)](https://github.com/romanmurzac/terminal_sql/releases/latest)
-
 ## Overview
 Run SQL query on your local files directly in terminal.
 
@@ -21,7 +19,7 @@ In the TerminalSQL there are 5 used [ANSI colors](https://talyian.github.io/ansi
 - **start/finish message**: background green - `\x1b[42m` - start and finish of the program execution.
 
 ## App
-For **MacOS** the app can be downloaded [`here`](app/TerminalSQL-macOS.zip).
+For **MacOS** the app can be downloaded [`here`](app/TerminalSQL-MacOS.tar.gz).
 
 ![Image 1.1](media/image_1.1.png)
 
