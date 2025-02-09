@@ -1,5 +1,10 @@
 # TerminalSQL
 
+# Your Project Name
+
+![GitHub release](https://img.shields.io/github/v/release/romanmurzac/terminal_sql?color=blue&label=0.2.0%20Release)
+
+
 ## Overview
 Run SQL query on your local files directly in terminal.
 
