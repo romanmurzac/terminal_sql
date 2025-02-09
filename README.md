@@ -1,8 +1,6 @@
 # TerminalSQL
 
-# Your Project Name
-
-![GitHub release](https://img.shields.io/github/v/release/romanmurzac/terminal_sql?color=blue&label=0.2.0%20Release)
+![GitHub release](https://img.shields.io/github/v/release/romanmurzac/terminal_sql?color=blue&label=Latest%20Release)
 
 
 ## Overview
